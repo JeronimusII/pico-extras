@@ -99,7 +99,7 @@ void sleep_run_from_dormant_source(dormant_source_t dormant_source) {
     }
 
     // Reconfigure uart with new clocks
-    setup_default_uart();
+    // setup_default_uart();
 }
 
 // Go to sleep until woken up by the RTC
